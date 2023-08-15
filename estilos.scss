@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;900&display=swap");
-
+$color-primario: #1e171c;
 * {
   padding: 0;
   margin: 0;
@@ -42,7 +42,7 @@ body {
   z-index: -10;
 }
 .cuadro {
-  background-color: #1e171c;
+  background-color: $color-primario;
   -webkit-box-shadow: 11px 6px 20px -3px rgba(129, 82, 174, 1);
   -moz-box-shadow: 11px 6px 20px -3px rgba(129, 82, 174, 1);
   box-shadow: 11px 6px 20px -3px rgba(129, 82, 174, 1);
@@ -120,13 +120,12 @@ body {
   flex-direction: column;
 }
 .Contenedor {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 .Texto_imagen {
-  
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
@@ -156,7 +155,7 @@ body {
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
   -webkit-box-shadow: 11px 6px 20px -3px rgba(129, 82, 174, 1);
   -moz-box-shadow: 11px 6px 20px -3px rgba(129, 82, 174, 1);
@@ -173,14 +172,14 @@ body {
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
   text-shadow: 3px 3px 2px rgba(74, 116, 114, 0.76);
-  -webkit-box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
--moz-box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
-box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
+  -webkit-box-shadow: 10px 10px 12px 4px rgba(74, 116, 114, 0.77);
+  -moz-box-shadow: 10px 10px 12px 4px rgba(74, 116, 114, 0.77);
+  box-shadow: 10px 10px 12px 4px rgba(74, 116, 114, 0.77);
 }
 .Texto_M {
   font-family: "Inter", sans-serif;
@@ -195,11 +194,11 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(74, 116, 114, 0.76);
-  -webkit-box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
-  -moz-box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
-  box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
+  -webkit-box-shadow: 10px 10px 12px 4px rgba(74, 116, 114, 0.77);
+  -moz-box-shadow: 10px 10px 12px 4px rgba(74, 116, 114, 0.77);
+  box-shadow: 10px 10px 12px 4px rgba(74, 116, 114, 0.77);
   color: aliceblue;
 }
 .kg {
@@ -213,13 +212,13 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   text-shadow: 3px 3px 2px rgba(115, 135, 149, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(115,135,149,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(115,135,149,1);
-  box-shadow: 10px 10px 14px 4px rgba(115,135,149,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(115, 135, 149, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(115, 135, 149, 1);
+  box-shadow: 10px 10px 14px 4px rgba(115, 135, 149, 1);
 }
 .kgd {
   font-family: "Inter", sans-serif;
@@ -234,11 +233,11 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(115, 135, 149, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(115,135,149,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(115,135,149,1);
-  box-shadow: 10px 10px 14px 4px rgba(115,135,149,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(115, 135, 149, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(115, 135, 149, 1);
+  box-shadow: 10px 10px 14px 4px rgba(115, 135, 149, 1);
   color: aliceblue;
 }
 .kpm {
@@ -252,15 +251,14 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
   text-shadow: 3px 3px 2px rgba(89, 141, 141, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(89,141,141,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(89,141,141,1);
-  box-shadow: 10px 10px 14px 4px rgba(89,141,141,1);
-  
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(89, 141, 141, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(89, 141, 141, 1);
+  box-shadow: 10px 10px 14px 4px rgba(89, 141, 141, 1);
 }
 .kpmd {
   font-family: "Inter", sans-serif;
@@ -275,12 +273,12 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(89, 141, 141, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(89,141,141,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(89,141,141,1);
-  box-shadow: 10px 10px 14px 4px rgba(89,141,141,1);
-  
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(89, 141, 141, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(89, 141, 141, 1);
+  box-shadow: 10px 10px 14px 4px rgba(89, 141, 141, 1);
+
   color: aliceblue;
 }
 .keo {
@@ -294,14 +292,14 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
   text-shadow: 3px 3px 2px rgba(116, 59, 88, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(116,59,88,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(116,59,88,1);
-  box-shadow: 10px 10px 14px 4px rgba(116,59,88,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(116, 59, 88, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(116, 59, 88, 1);
+  box-shadow: 10px 10px 14px 4px rgba(116, 59, 88, 1);
 }
 .keod {
   font-family: "Inter", sans-serif;
@@ -316,11 +314,11 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(116, 59, 88, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(116,59,88,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(116,59,88,1);
-  box-shadow: 10px 10px 14px 4px rgba(116,59,88,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(116, 59, 88, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(116, 59, 88, 1);
+  box-shadow: 10px 10px 14px 4px rgba(116, 59, 88, 1);
   color: aliceblue;
 }
 .kc {
@@ -334,14 +332,14 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
   text-shadow: 3px 3px 2px rgba(68, 82, 116, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(68,82,116,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(68,82,116,1);
-  box-shadow: 10px 10px 14px 4px rgba(68,82,116,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(68, 82, 116, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(68, 82, 116, 1);
+  box-shadow: 10px 10px 14px 4px rgba(68, 82, 116, 1);
 }
 .kcd {
   font-family: "Inter", sans-serif;
@@ -356,11 +354,11 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(68, 82, 116, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(68,82,116,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(68,82,116,1);
-  box-shadow: 10px 10px 14px 4px rgba(68,82,116,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(68, 82, 116, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(68, 82, 116, 1);
+  box-shadow: 10px 10px 14px 4px rgba(68, 82, 116, 1);
   color: aliceblue;
 }
 .ko {
@@ -374,14 +372,14 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
   text-shadow: 3px 3px 2px rgba(138, 106, 96, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(138,106,96,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(138,106,96,1);
-  box-shadow: 10px 10px 14px 4px rgba(138,106,96,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(138, 106, 96, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(138, 106, 96, 1);
+  box-shadow: 10px 10px 14px 4px rgba(138, 106, 96, 1);
 }
 .kod {
   font-family: "Inter", sans-serif;
@@ -396,11 +394,11 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(138, 106, 96, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(138,106,96,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(138,106,96,1);
-  box-shadow: 10px 10px 14px 4px rgba(138,106,96,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(138, 106, 96, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(138, 106, 96, 1);
+  box-shadow: 10px 10px 14px 4px rgba(138, 106, 96, 1);
   color: aliceblue;
 }
 .kgl {
@@ -414,14 +412,14 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   margin-top: -15%;
   margin-left: -40%;
   color: #fff;
-  background-color: #1e171c;
+  background-color: $color-primario;
   position: absolute;
   align-items: center;
   background-size: center center;
   text-shadow: 3px 3px 2px rgba(147, 122, 100, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(147,122,100,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(147,122,100,1);
-  box-shadow: 10px 10px 14px 4px rgba(147,122,100,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(147, 122, 100, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(147, 122, 100, 1);
+  box-shadow: 10px 10px 14px 4px rgba(147, 122, 100, 1);
 }
 .kgld {
   font-family: "Inter", sans-serif;
@@ -436,11 +434,11 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   justify-content: center;
   background-size: center center;
   position: absolute;
-  background-color: #1e171c;
+  background-color: $color-primario;
   text-shadow: 3px 3px 2px rgba(147, 122, 100, 1);
-  -webkit-box-shadow: 10px 10px 14px 4px rgba(147,122,100,1);
-  -moz-box-shadow: 10px 10px 14px 4px rgba(147,122,100,1);
-  box-shadow: 10px 10px 14px 4px rgba(147,122,100,1);
+  -webkit-box-shadow: 10px 10px 14px 4px rgba(147, 122, 100, 1);
+  -moz-box-shadow: 10px 10px 14px 4px rgba(147, 122, 100, 1);
+  box-shadow: 10px 10px 14px 4px rgba(147, 122, 100, 1);
   color: aliceblue;
 }
 .background_h {
@@ -455,7 +453,7 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   display: grid;
   width: 100%;
   margin: 0 auto;
-  background-color: #1e171c;
+  background-color: $color-primario;
   padding: 20px;
   border: 1pc solid black;
 }
@@ -466,9 +464,9 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   display: flex;
   width: 5%;
   height: 10%;
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
 }
 .videos_habilidades {
   display: grid;
@@ -476,9 +474,9 @@ box-shadow: 10px 10px 12px 4px rgba(74,116,114,0.77);
   width: 60%;
   float: right;
   margin: 40px;
-  -webkit-box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
--moz-box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
-box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(129, 82, 174, 1);
+  -moz-box-shadow: 10px 10px 30px 0px rgba(129, 82, 174, 1);
+  box-shadow: 10px 10px 30px 0px rgba(129, 82, 174, 1);
 }
 .descripcion_habilidades {
   background-color: #131313;
@@ -489,9 +487,9 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   top: 30%;
   left: 5%;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
 }
 .descripcion_habilidades_Q {
   background-color: #131313;
@@ -502,9 +500,9 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   top: 120%;
   left: 5%;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
 }
 .descripcion_habilidades_W {
   background-color: #131313;
@@ -515,9 +513,9 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   top: 210%;
   left: 5%;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
 }
 .descripcion_habilidades_E {
   background-color: #131313;
@@ -528,9 +526,9 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   top: 300%;
   left: 5%;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
 }
 .descripcion_habilidades_R {
   background-color: #131313;
@@ -541,9 +539,9 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   top: 389%;
   left: 5%;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
 }
 .Contenedor_v {
   margin: 20px;
@@ -556,9 +554,9 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   text-decoration: none;
   color: #fff;
   text-shadow: 4px 4px 5px rgba(129, 82, 174, 1);
-  -webkit-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  -moz-box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
-  box-shadow: 10px 10px 41px -14px rgba(129,82,174,0.8);
+  -webkit-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  -moz-box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
+  box-shadow: 10px 10px 41px -14px rgba(129, 82, 174, 0.8);
   height: 110%;
   width: 95%;
 }
@@ -584,7 +582,7 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
   align-items: center;
 }
 .color_sub {
-  color: #C8AA6E;
+  color: #c8aa6e;
 }
 .text_lore {
   text-align: center;
@@ -598,7 +596,14 @@ box-shadow: 10px 10px 30px 0px rgba(129,82,174,1);
 .margin {
   margin: 15px;
 }
-
+.footer {
+  width: 100%;
+  align-items: center;
+}
+.iniciof {
+  position: absolute;
+  top: 93.9%;
+}
 
 @media screen and (max-width: 700px) {
   .videos_flex {

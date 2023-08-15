@@ -627,7 +627,7 @@ body {
 }
 
 .color_sub {
-  color: #C8AA6E;
+  color: #c8aa6e;
 }
 
 .text_lore {
@@ -642,6 +642,16 @@ body {
 
 .margin {
   margin: 15px;
+}
+
+.footer {
+  width: 100%;
+  align-items: center;
+}
+
+.iniciof {
+  position: absolute;
+  top: 93.9%;
 }
 
 @media screen and (max-width: 700px) {
